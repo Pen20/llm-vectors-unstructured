@@ -10,7 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 
 
 COURSES_PATH = "/workspaces/llm-vectors-unstructured/llm-vectors-unstructured/data/asciidoc/courses/llm-fundamentals/modules"
-
+llm-vectors-unstructured/data/asciidoc/courses/llm-fundamentals/modules/1-introduction/lessons/1-neo4j-and-genai/lesson.adoc
 # Load lesson documents
 loader = DirectoryLoader(COURSES_PATH, glob="**/lesson.adoc", loader_cls=TextLoader)
 docs = loader.load()
